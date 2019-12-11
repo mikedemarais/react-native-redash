@@ -1,0 +1,14 @@
+import Animated from "react-native-reanimated";
+export declare const bin: (value: boolean) => 0 | 1;
+export declare const min: (...args: Animated.Adaptable<number>[]) => Animated.Adaptable<number>;
+export declare const max: (...args: Animated.Adaptable<number>[]) => Animated.Adaptable<number>;
+export declare const clamp: (value: Animated.Adaptable<number>, lowerBound: Animated.Adaptable<number>, upperBound: Animated.Adaptable<number>) => Animated.Node<number>;
+export declare const between: (value: Animated.Node<number>, lowerBound: Animated.Adaptable<number>, upperBound: Animated.Adaptable<number>, inclusive?: boolean) => Animated.Node<0 | 1>;
+export declare const approximates: (a: Animated.Adaptable<number>, b: Animated.Adaptable<number>, precision?: Animated.Adaptable<number>) => Animated.Node<0 | 1>;
+export declare const toRad: (deg: Animated.Adaptable<number>) => Animated.Node<number>;
+export declare const toDeg: (rad: Animated.Adaptable<number>) => Animated.Node<number>;
+export declare const atan2: (y: Animated.Adaptable<number>, x: Animated.Adaptable<number>) => Animated.Node<number>;
+export declare const atan: (x: Animated.Adaptable<number>) => Animated.Node<number>;
+export declare const acos: (x1: Animated.Adaptable<number>) => Animated.Node<number>;
+export declare const asin: (x1: Animated.Adaptable<number>) => Animated.Node<number>;
+export declare const cubicBezier: (t: Animated.Node<number>, p0: Animated.Node<number>, p1: Animated.Node<number>, p2: Animated.Node<number>, p3: Animated.Node<number>) => Animated.Node<number>;
